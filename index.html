@@ -24,6 +24,11 @@
       <figure>
         <img src="images/signature-loaf.jpg" alt="Signature loaf of bread">
         <figcaption>Our famous Signature Loaf</figcaption>
+        <button onclick="addFavorite({name: 'Signature Loaf', price: '$5', image: 'images/signature-loaf.jpg'})">
+    ❤️ Add to Favorites
+  </button>
+      <p id="favoritesList"></p>
+      <button onclick="clearFavorites()">🗑️ Clear Favorites</button>
       </figure>
     </section>
     <section>
@@ -45,5 +50,6 @@
   <footer>
     <p>&copy; 2026 North Star Bakery</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
