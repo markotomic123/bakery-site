@@ -27,8 +27,6 @@
         <button onclick="addFavorite({name: 'Signature Loaf', price: '$5', image: 'images/signature-loaf.jpg'})">
     ❤️ Add to Favorites
   </button>
-      <p id="favoritesList"></p>
-      <button onclick="clearFavorites()">🗑️ Clear Favorites</button>
       </figure>
     </section>
     <section>
@@ -38,7 +36,13 @@
         <source srcset="images/croissant-small.jpg" media="(max-width: 799px)">
         <img src="images/croissant.jpg" alt="Fresh croissant">
       </picture>
+      <p class="caption">Our buttery, flaky croissants</p>
+      <button onclick="addFavorite({name: 'Croissant', price: '$3', image: 'images/croissant.jpg'})">
+    ❤️ Add to Favorites
+  </button>
     </section>
+    <p id="favoritesList"></p>
+      <button onclick="clearFavorites()">🗑️ Clear Favorites</button>
     <section>
       <h2>Behind the Scenes</h2>
       <video controls>

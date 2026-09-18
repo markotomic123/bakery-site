@@ -79,4 +79,10 @@ button {
   border: none;
   border-radius: 5px;
 }
+.caption {
+  font-style: italic;
+  text-align: center;
+  margin-top: 5px;
+  color: #6B3E26;
+}
 
